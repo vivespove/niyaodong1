@@ -1,0 +1,154 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.headine{
+	height: 50px;
+	width:80%;
+	margin: 0 auto;
+	border: 1px solid #C0C0C0;
+}
+.headine_one{
+	height: 50px;
+	line-height: 50px;
+	margin-left: 9px;
+	font-size: 36px;
+	color: #00A0F5;
+}
+.email_two{
+	width: 100%;
+	border: 1px solid #C0C0C0;
+	border-top: 2px solid #00A0F5;
+}
+.email_content{
+	height: 600px;
+	width: 80%;
+	margin: auto;
+	margin-top: 0px;
+	border: 1px solid #00A0F5;
+}
+.email_To{
+	width: 90%;
+	height: 50px;
+	/* background-color: #00A0F5; */
+	border-bottom: 1px solid #000000;
+	margin: auto;
+}
+.email_Span{
+	display: inline-block;
+	height: 50px;
+	line-height: 70px;
+	width: 60px;
+	/* border: 1px solid red; */
+	margin-left: 6px;
+}
+.email_Div{
+	display: inline-block;
+	background-color: #00A0F5;
+	margin-right: 10px;
+	line-height: 30px;
+	margin: auto;
+	padding-left: 6px;
+	padding-right: 6px;
+	color: #FFFFFF;
+}
+.email_Div_Delete{
+	cursor: pointer;
+}
+/* 第五个链接 */
+.email_Link{
+	width: 95%;
+	height: 50px;
+	/* background-color: #00A0F5; */
+	border-bottom: 1px solid #000000;
+	/* margin: auto; */
+	padding-left: 5%;
+}
+/* 第六个内容 */
+.email_contents{
+	height: 300px;
+	border-bottom: 1px solid #000000;
+	width: 100%;
+	margin: auto;
+}
+/* 第六个内容按钮 */
+.email_contents_buttons{
+	height: 50px;
+	width: 95%;
+	border-bottom: 1px solid #000000;
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 5%;
+	line-height: 50px;
+}
+.email_contents_select{
+	width: 125px;
+	height: 30px;
+	border: 1px solid #77869A;
+	background-color: #F4F4F4;
+}
+.email_contents_bts{
+	
+	height: 30px;
+	border: 1px solid #77869A;
+	background-color: #F4F4F4;
+	/* margin-left: 10px; */
+	/* margin-right: 10px; */
+	margin: 10px;
+	line-height: 30px;
+	
+	display: flex;
+	justify-content: flex-start;
+}
+.email_contents_bts_mes{
+	border-right: 1px solid #77869A;
+	
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.mes{
+	border-right: 0px solid #77869A;
+}
+/* 多行文本框 */
+.email_contents_message_text{
+	 width: 801px; height: 240px;
+	margin: 0px auto;
+}
+/* 邮件第七行 */
+.email_button{
+	height: 44px;
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	background-color: #EEF0F2;
+}
+.email_button_left{
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 10px;
+	height: 44px;
+	line-height: 44px;
+}
+.email_button_left div{
+	margin-right: 20px;
+}
+.email_button_right{
+	height: 30px;
+	line-height: 30px;
+	background-color: #00A0F5;
+	text-align: center;
+	margin-top: 7px;
+	cursor: pointer;
+	margin-right: 16px;
+	padding-left: 16px;
+	padding-right: 16px;
+}

@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link href="css/03.css" rel="stylesheet" type="text/css" />
+		
+	</head>
+	<body >
+		<div id="body1" style="z-index: 10000;" >
+		<div class="headine">	<!--headine标题-->
+			<div class="headine_one">
+				VIEW
+			</div>
+		</div>
+		<div class="catalog">	<!--catalog目录-->
+			<div style="width: 90%;margin: 0 auto;">
+				<div class="catalog_left">
+					<ul>
+						<li><a href="#">CHINA</a></li>
+						<li>|</li>
+						<li><a href="#">TEST LOGIN SITE</a></li>
+						<li>|</li>
+						<li><a href="#">LAST FILE CHANGE</a></li>
+						<li>|</li>
+						<li><a href="#">ERROP LOG</a></li>
+						<li>|</li>
+						<li><a href="#">TKE RC Environment</a></li>
+					</ul>
+				</div>
+				<div class="catalog_right">
+					
+				</div>
+			</div>
+			
+		</div>
+		<div class="content">	<!--cataent内容-->
+			<div class="content_one">
+				<ul>
+					<li>Service Centre</li>
+					<li>Buildings</li>
+					<li>Maintenance & Repairs</li>
+					<li>Runs</li>
+					<li>System Data</li>
+					<li>Maintenance Scheduling</li>
+					<li>Quality</li>
+					<li>Spare Parts</li>
+					<li>Inspection & Testing</li>
+				</ul>
+			</div>
+			<div class="content_two">
+				<ul>
+					<li>Service Database</li>
+					<li>|</li>
+					<li>GOVT.Inspection Violations</li>
+				</ul>
+			</div>
+			<div class="content_three" style="background-color: #EEF0F2;height: 60px;padding-top: 10px;margin-top: 10px;">
+				<form>
+					<div style="display: flex; justify-content: space-around; align-items: flex-end; ">
+						<div>
+							<span>Unit</span><br />
+							<input type="text" />
+							<input type="button" value="Choose" style="margin-left: -4px; border-color: #00A0F5;background-color: #00A0F5;" />
+						</div>
+						<div>
+							<span>Status</span><br />
+							<input type="text" />
+							<input type="button" value="Choose" style="margin-left: -4px; border-color: #00A0F5;background-color: #00A0F5;" />
+							
+						</div>
+						<div>
+							<span>Timeframe</span><br />
+							<input type="date" />
+							<input type="time" />
+							
+						</div>
+						<div>
+							<span>To</span><br />
+							<input type="date" />
+							<input type="time" />
+						</div>
+						<div>
+							<!-- 提交按钮 -->
+							<input type="submit" value="Search" style="background-color: #00A0F5;border-color: #00A0F5; " />
+						</div>
+						<div>
+							<!-- 重置按钮 -->
+							<input type="reset" value="New" style="background-color: #00A0F5; border-color:#00A0F5 ;" />
+						</div>
+					</div>
+					
+				</form>
+			</div>
+			<!-- 第一大部分 -->
+			<div class="content_four">
+				<span>ID Govt.Insp</span>
+				
+				<select style="width: 300px; height: 30px;">
+					<option>USV1234-1</option>
+					<option>USV1234-2</option>
+					<option>USV1234-3</option>
+				</select>
+			</div>
+			<div class="content_five">
+				<div style="border-bottom: 1px solid #000000; ">
+					<div style="display: flex;justify-content: space-around;margin-top: 10px;">
+						<div>
+							Unit In Report &nbsp;&nbsp;&nbsp;<a style="font-size: 10px; color: #00A0F5;">USV1234</a>
+						</div>
+						<div>
+							Contract &nbsp;&nbsp;&nbsp;<a style="font-size: 10px;color: #00A0F5;">12/01/2018-11/01/2020 Thyssenkrupp elevator(410-169916-P.1.0)</a>
+						</div>
+						<div>
+							Status &nbsp;&nbsp;&nbsp;<a style="font-size: 10px;color: #ECC493;">Pending</a>
+						</div>
+					</div>
+					<div style="display: flex;justify-content: space-around;margin-bottom: 10px;">
+						<div>
+							ID Govt.Insp &nbsp;&nbsp;&nbsp;<a style="font-size: 10px; ">USV1234-3</a>
+						</div>
+						<div>
+							Building &nbsp;&nbsp;&nbsp;<a style="font-size: 10px;color: #00A0F5;">10 Rue Del Elysee(006647)</a>
+						</div>
+						<div>
+							Booking Date &nbsp;&nbsp;&nbsp;<a style="font-size: 10px;">27-01-2021</a>
+						</div>
+					</div>
+				</div>
+				<!--第二小部分 编号信息 -->
+				<div style="display: flex;justify-content: space-around;height: 55px;margin: 10px 0;">
+					<div>
+						<!-- Audit Number 查核编号 -->
+						<span>Audit Number</span><br />
+						<input type="text" style="width: 178px;height: 29px;" />
+					</div>
+					<div>
+						<!-- Party Auditor/Tester 第三方审核人员 -->
+						<span>3rd Party Auditor/Tester</span><br />
+						<select style="width: 178px;height: 29px;">
+							<option>张大大</option>
+							<option>李大大</option>
+							<option>王大大</option>
+							<option>赵大大</option>
+						</select>
+					</div>
+					<div>
+						<!-- Report Type报告类型 -->
+						<span>Report Type</span><br />
+						<select style="width: 178px;height: 29px;">
+							<option>1-year</option>
+							<option>5-year</option>
+							<option>?-year</option>
+						</select>
+					</div>
+					<div>
+						<!-- Audit Date审核日期 -->
+						<span>Audit Date</span><br />
+						<input type="date" style="width: 178px;height: 29px;"/>
+					</div>
+					<div>
+						<!-- Report Date 报告日期 -->
+						<span>Report Date</span><br />
+						<input type="date" style="width: 178px;height: 29px;"/>
+					</div>
+					<div>
+						<!-- Report Reception Date报告接受日期 -->
+						<span>Report Reception Date</span><br />
+						<input type="date" style="width: 178px;height: 29px;"/>
+					</div>
+				</div>
+				<!-- 弹出框 -->
+				
+				
+				<div class="popup">
+					<!-- 弹出框头部 -->
+					<div class="popup_headline">
+						<div class="popup_headline_name">
+							<span>Alert</span>
+						</div>
+						<div class="popup_headline_shut">X</div>
+					</div>
+					<!-- 弹出框表格 -->
+					<div class="popup_table">
+						<p>
+							The opportunity ROCOP402190001 has been created,its contans:
+							<br />
+							USV1234-3-2
+							<br />
+							USV1234-3-4
+						
+						</p>
+					</div>
+					<!-- 弹出框按钮 -->
+					<div class="popup_button">
+
+							<div class="popup_button_btn_cancel">Confirm</div>
+					</div>
+				</div>
+				<!-- 第三小部分 处理问题 -->
+				<div class="First_three_headline">
+					<span>Violations</span>
+					<div class="First_three_headline_icon" id="First_three_headline_icon">+</div>
+					<input type="radio" name="year" value="" style="margin-left: 20px;" checked="checked"  />No Violations
+					<input type="radio" name="year" value="" style="margin-left: 20px;" />Fine or Penalty
+					<input type="radio" name="year" value="" style="margin-left: 20px;"/>Re-inspection Required
+					<input type="radio" name="year" value="" style="margin-left: 20px;"/>Re-inspection Passed
+				</div>
+				
+				<div style="background-color: #FFFFFF;width: 100%;<!-- height: 109px; -->">
+					<table style="width: 1113px;border: 1px solid #000000;margin: auto;" border="1" cellspacing="0" >
+						<tr style="background-color: #EEF0F2">
+							<th style="width: 31px;"><div style="height: 20px;width: 20px;border: 1px solid #E0E3E8;margin: auto;"></div></th>
+							<th >Peserve Status</th>
+							<th>Peserve TK ID</th>
+							<th>Reserve Ext.Prov.ID</th>
+							<th>Reserve Description</th>
+							<th>Action</th>
+							<th>No Clearup Reason</th>
+							<th>Date of Clearup</th>
+							<th>Type</th>
+							<th style="width: 31px;"><a>图片</a></th>
+							<th>Workorder/Opportunity</th>
+							<th style="width: 31px;"></th>
+						</tr>
+						<tr style="background-color: #FFFFFF;">
+							<th><div style="height: 20px;width: 20px;border: 1px solid #E0E3E8;margin: auto;"></div></th>
+							<td style="color: #FAA540;">Pending</td>
+							<td>USV1234-3-2</td>
+							<td>2</td>
+							<td>No overrun limit switch / No overrun clearance signage</td>
+							<td>Quotation D402324DF</td>
+							<td>Sent to the customer</td>
+							<td></td>
+							<td>
+								<select>
+									<!-- Customer自修 -->
+									<!-- Billable收费 -->
+									<!-- Non-Billable非计费 -->
+									<!-- Mod-Quotation大修 -->
+									<option>Billable</option>
+									<option>Customer</option>
+									<option>Non-Billable</option>
+									<option>Mod-Quotation</option>
+								</select>
+							</td>
+							<td></td>
+							<td>ROCOP402190001</td>
+							<td><a href="#">删除</a></td>
+						</tr>
+						
+						<tr style="background-color: #FFFFFF;">
+							<th><div style="height: 20px;width: 20px;border: 1px solid #E0E3E8;margin: auto;"></div></th>
+							<td style="color: #FAA540;">Pending</td>
+							<td>USV1234-3-4</td>
+							<td>4</td>
+							<td>No fire rated door fitte</td>
+							<td>Quotation D402324DF</td>
+							<td>Sent to the customer</td>
+							<td></td>
+							<td>
+								<select>
+									<!-- Customer自修 -->
+									<!-- Billable收费 -->
+									<!-- Non-Billable非计费 -->
+									<!-- Mod-Quotation大修 -->
+									<option>Billable</option>
+									<option>Customer</option>
+									<option>Non-Billable</option>
+									<option>Mod-Quotation</option>
+								</select>
+							</td>
+							<td></td>
+							<td>ROCOP402190001</td>
+							<td><a href="#">删除</a></td>
+						</tr>
+					</table>
+					<div style="height: 40px;width: 98%;padding-top: 6px;margin: auto;">
+						<div style=" display: inline-block;">
+							<div style="height: 30px;background-color: #00A0F5; display: inline-block;padding: 2px 13px;line-height: 30px;"><a href="#" style="color: #FFFFFF;">Send</a></div>
+						</div>
+						<div style="display: inline-block;float: right;">
+								<div style="height: 30px;background-color: #00A0F5; display: inline-block;padding: 2px 13px;line-height: 30px;"><a href="#" style="color: #FFFFFF;">Opportunity</a></div>
+								<!-- Save as Draft已保存的草稿 -->
+								<div id="Repair" style="height: 30px;background-color: #00A0F5; display: inline-block;padding: 2px 13px;line-height: 30px;"><a href="#" style="color: #FFFFFF;">Repair</a></div>
+						</div>
+						
+					</div>
+					
+					<!-- 第二大部分 -->
+					<!-- 第二大部分开头 -->
+					<div style="background-color: #EEF0F2; width: 98%;height: 42px;margin: auto;line-height: 42px;border: 1px solid #000000;border-bottom: 0px;" >
+						<div style="margin-left: 5px;border: 2px solid #00A0F5;color: #00A0F5;cursor: pointer;border-radius: 50%;height: 20px;width: 20px;line-height: 20px;text-align: center;display: inline-block;">下</div>
+						<span>Files/Image</span>
+					</div>
+					<!-- 左边内容文件 -->
+					<div style="width: 98%;margin: auto;border: 1px solid #000000;display: flex;justify-content: space-between;	">
+						<!-- 第二大部分左边部分 -->
+						<div style="width: 50%;border: 1px solid #000000;border-top: 1px solid #00A0F5;margin: 10px;">
+							<div style="width: 96%;margin: auto;">
+								<div>
+									<div style="height: 20px;line-height: 20px;text-align: center;border: 2px solid #00A0F5;border-radius: 50%;width: 20px;display: inline-block;margin-bottom: 6px;">下</div>
+									<strong>File</strong>
+								</div>
+								<div>
+									<div style="height: 30px;width: 100%;margin: auto;border: 1px solid #E6ECF1;background-color: #F9FDFF;line-height: 30px;">
+										<span style="border: 2px solid #00A0F5;border-radius: 50%;height: 20px;width: 20px;line-height: 20px;margin-bottom: 6px;display: inline-block;text-align: center;">上</span>
+										<strong style="margin-left: 10px;">Report</strong>
+									</div>
+									<div style="width: 100%">
+										<div style="height: 30px;border: 1px solid #E6ECF1;background-color: #F9FDFF;line-height: 30px;width: 96%;margin-left: 4%;margin-top: 4px;display: flex;justify-content: space-between;">
+											<div>Rapport N’SOCO-43567</div>
+											<div><a href="#">新建</a></div>
+										</div>
+									</div>
+								</div>
+								<div style="margin-top: 6px">
+									<div style="height: 30px;width: 100%;margin: auto;border: 1px solid #E6ECF1;background-color: #F9FDFF;line-height: 30px;">
+										<span style="border: 2px solid #00A0F5;border-radius: 50%;height: 20px;width: 20px;line-height: 20px;margin-bottom: 6px;display: inline-block;text-align: center;">上</span>
+										<strong style="margin-left: 10px;">Report</strong>
+									</div>
+									<div style="width: 100%">
+										<div style="height: 30px;border: 1px solid #E6ECF1;background-color: #F9FDFF;line-height: 30px;width: 96%;margin-left: 4%;margin-top: 4px;display: flex;justify-content: space-between;">
+											<div><input type="checkbox" name="vehice" style="width: 24px;height: 17px;"/>Rapport N’SOCO-43567</div>
+											<div><a href="#">新建</a></div>
+										</div>
+										
+									</div>
+									<div style="width: 100%">
+										<div style="height: 30px;border: 1px solid #E6ECF1;background-color: #F9FDFF;line-height: 30px;width: 96%;margin-left: 4%;margin-top: 4px;display: flex;justify-content: space-between;">
+											<div><input type="checkbox" name="vehice" style="width: 24px;height: 17px;"/>Rapport N’SOCO-43567</div>
+											<div><a href="#">新建</a></div>
+										</div>
+										
+									</div>
+									<div style="width: 100%">
+										<div style="height: 30px;border: 1px solid #E6ECF1;background-color: #F9FDFF;line-height: 30px;width: 96%;margin-left: 4%;margin-top: 4px;display: flex;justify-content: space-between;">
+											<div><input type="checkbox" name="vehice" style="width: 24px;height: 17px;"/>Rapport N’SOCO-43567</div>
+											<div><a href="#">新建</a></div>
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						<!-- 第二大部分的右边部分 -->
+						<div style="width: 50%;margin: 10px;">
+							<!-- 右上 -->
+							<div style="width: 100%;border: 1px solid #000000;border-top: 1px solid #00A0F5;">
+								<div style="width: 96%; margin: 4px auto;">
+									<div>
+										<div style="border: 2px solid #00A0F5;width: 20px;height: 20px;text-align: center;line-height: 20px;border-radius: 50%;display: inline-block;">下</div>
+										<div style="margin-left: 6px;display: inline-block;">Violation</div>
+									</div>
+								</div>
+								<div style="width: 96%; margin: 4px auto;">
+									<table border="1" cellspacing="0">
+										<tr>
+											<th style="width: 30%;">Work Order Viloation</th>
+											<th style="width: 40%;">Viloation</th>
+											<th style=""></th>
+										</tr>
+										<tr style="height: 40px;text-align: center;">
+											<td>aaaaa</td>
+											<td>AMB39272-3-1</td>
+											<td rowspan="2" style="color: #00A0F5;">
+												Document One.pdf<br />
+												Document Two.pdf
+											</td>
+										</tr>
+										<tr style="height: 40px;text-align: center;">
+											<td></td>
+											<td>AMB39272-3-2</td>
+											
+										</tr>
+										<tr style="height: 40px;text-align: center;">
+											<td>bbbbb</td>
+											<td>AMB39272-3-3</td>
+											<td rowspan="2" style="color: #00A0F5;">
+												Document Three.pdf<br />
+												Document Four.pdf
+											</td>
+										</tr>
+										<tr style="height: 40px;text-align: center;">
+											<td></td>
+											<td>AMB39272-3-4</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+							<!-- 右下 -->
+							
+							<div style="width: 100%;border: 1px solid #000000;border-top: 1px solid #00A0F5;margin-top: 6px;">
+								<div style="width: 96%; margin: 4px auto;">
+									<div>
+										<div style="border: 2px solid #00A0F5;width: 20px;height: 20px;text-align: center;line-height: 20px;border-radius: 50%;display: inline-block;">下</div>
+										<div style="margin-left: 6px;display: inline-block;">Images</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- 第三大部分 标题-->
+					<div class="Third_headline" >
+						<div class="Third_headline_icon">下</div>
+						<span>History Log</span>
+					</div>
+					<!-- 第三大部分 内容 -->
+					<div  class="Third_content">
+						<table border="1" cellspacing="0" class="Third_content_table">
+							<tr class="Third_content_tr tr1">
+								<th class="Third_content_th0">Saved_Action</th>
+								<th class="Third_content_th">Date</th>
+								<th>User</th>
+								<th class="Third_content_th">Report_Status</th>
+							</tr>
+							<tr class="Third_content_tr tr2">
+								<td class="offset">Qualification</td>
+								<td class="Center">23/02/19 11:37</td>
+								<td class="offset">Noemie Barbier</td>
+								<td class="offset">Qualified</td>
+							</tr>
+							<tr class="Third_content_tr ">
+								<td class="offset">Mail sent(Status of reserves processing)</td>
+								<td class="Center">22/02/19 20:15</td>
+								<td class="offset">Cyril Deslandes</td>
+								<td class="offset">Partial</td>
+							</tr>
+							<tr class="Third_content_tr tr2">
+								<td class="offset">Qualification</td>
+								<td class="Center">22/02/19 19:25</td>
+								<td class="offset">Cyril Deslandes</td>
+								<td class="offset">Partial</td>
+							</tr>
+							<tr class="Third_content_tr ">
+								<td class="offset">Mail sent(Acknowledgement of report receipt)</td>
+								<td class="Center">21/02/19 10:25</td>
+								<td class="offset">Stephane Hainigue</td>
+								<td class="offset">Pending</td>
+							</tr>
+							<tr class="Third_content_tr tr2">
+								<td class="offset">Creation</td>
+								<td class="Center">21/02/19 10:02</td>
+								<td class="offset">Stephane Hainigue</td>
+								<td class="offset">Pending</td>
+							</tr>
+						</table>
+					</div>
+					
+					
+					
+					
+					<!-- 最下面的按钮 -->
+					<div style="height: 62px;width: 100%;background-color: #EEF0F2;margin-top: 20px;line-height: 62px;">
+						<div style="margin-right: 11px;float: right;">
+							<div style="height: 30px;background-color: #77869A; display: inline-block;padding: 2px 13px;line-height: 30px;"><a href="#" style="color: #FFFFFF;">Delete</a></div>
+							<div style="height: 30px;background-color: #00A0F5; display: inline-block;padding: 2px 13px;line-height: 30px;"><a href="#" style="color: #FFFFFF;">Save</a></div>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div style="height: 200px; width: 100%;"></div>
+		</div>
+		<script src="./js/03.js"></script>
+	</body>
+	
+</html>

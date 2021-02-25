@@ -1,0 +1,233 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.headine{
+	height: 50px;
+	/* border: 1px solid red; */
+	width: 90%;
+	margin: 0 auto;
+}
+.headine_one{
+	height: 30px;
+	line-height: 50px;
+	font-size: 36px;
+	color: #00A0F5;
+}
+/* 第二行横标 */
+.catalog{
+	height: 40px;
+	/* border: 1px solid red; */
+	/* width: 90%; */
+	/* margin: 0 auto; */
+	background-color: #00A0F5;
+}
+.catalog_left{
+	height: 40px;
+}
+.catalog_left ul li{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	margin-right: 6px;
+	color: #ffffff;
+}
+.catalog_left ul li a{
+	color: #FFFFFF;
+}
+/* content内容 */
+.content{
+	width: 90%;
+	margin: 0 auto;
+}
+.content_one {
+	height: 30px;
+	width: 100%;
+}
+.content_one ul li{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 16px;
+	color: #00A0F5;
+	
+}
+.content_two{
+	height: 30px;
+	width: 100%;
+}
+.content_two ul li{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 16px;
+}
+/* 信息表格 */
+.message{
+	margin-top: 20px;
+	width: 100%;
+	background-color: #EEF0F2;
+	
+	
+}
+.message_div{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.message_text{
+	width: 265px;
+	margin-top: 7px;
+}
+.message_ipt{
+	width: 208px;
+	margin-top: 7px;
+}
+.message_date{
+	width: 120px;
+	margin-top: 7px;
+}
+.table_message{
+	margin-top: 20px;
+	overflow-x: scroll;
+		
+	border: 1px solid #000000;
+}
+.table_message table td{
+	text-align: center;
+}
+.table_message_tr{
+	border: 2px solid #00A0F5;
+	border-radius: 50%;"
+	height: 20px;
+	width: 20px;
+	color: #00A0F5;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.popup{
+	display: none;
+	position: fixed; 
+	top: 13%;
+	left: 17%;
+	height: 480px;
+	width: 860px;
+	
+	z-index: 10;
+	background-color: #FFFFFF;
+}
+/* 弹出框头部 */
+.popup_headline{
+	display: flex;
+	justify-content: space-between;
+	height: 10%;
+	width: 98%;
+	margin: auto;
+	
+}
+/* 弹出框左边 */
+.popup_headline_name{
+	padding-top: 9px;
+	
+}
+.popup_headline_name span{
+	font-size: 26px;
+	font-weight: 700;
+	display: inline-block;
+}
+/* 弹出框关闭 */
+.popup_headline_shut{
+	padding-top: 20px;
+	padding-right: 24px;
+	opacity: 0.7;
+	cursor: pointer;
+}
+/* 2弹出框表格 */
+.popup_table{
+	height: 382px;
+	width: 98%;
+	margin: auto;
+	
+}
+/* th宽度 */
+.popup_table_width1{
+	width: 6%;
+	text-align: center;
+}
+.popup_table_width2{
+	margin: 10px 4px;
+	width: 60px;
+}
+/* 弹出框按钮 */
+.popup_button{
+	display: flex;
+	justify-content: flex-end;
+	/* border: 1px solid red; */
+	height: 20%;
+}
+/* 3弹出框左边 */
+.popup_button_add{
+	height: 30px;
+	width: 30px;
+	line-height: 27px;
+	font-size: 24px;
+	border-radius: 50%;
+	border: 2px solid #00A0F5;
+	text-align: center;
+	margin:9px 10px ;
+}
+/* 3弹出框右边 */
+.popup_button_btn{
+	display: flex;
+	justify-content: space-between;
+	
+}
+/* 取消 */
+.popup_button_btn_cancel, .popup_button_btn_save{
+	background-color: #77869A;
+	height: 32px;
+	width: 64px;
+	text-align: center;
+	line-height: 32px;
+	margin: 10px 10px;
+	color: #FFFFFF;
+}
+.save{
+	background-color: #00A0F5;
+	
+}
+.container{
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 200%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+/* 删除文本 */
+.delete{
+	height: 40px;
+	width: 100%;
+	
+	margin: 20px auto;
+	display: flex;
+	justify-content: flex-end;
+}
+.delete_text{
+	line-height: 40px;
+	font-size: 24px;
+	color: #00A0F5;
+	cursor: pointer;
+}
